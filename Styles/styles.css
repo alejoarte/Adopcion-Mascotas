@@ -69,7 +69,7 @@ form .link {
 
 .adopt-principal {
   margin: 0 auto;
-  width: 40%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   background: #f5b87f;
@@ -81,7 +81,7 @@ form .link {
 
 .adopt {
   margin: 0 auto;
-  width: 23%;    
+  width: 21%;    
   display: flex;
   flex-direction: column;
   background: #f5b87f;
@@ -269,3 +269,50 @@ form .adopt {
   font-size: 18px;
   border-color: #f79840;
 }
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding-top: 70px;
+  }
+  
+  body header a{
+  text-decoration: none;
+  color: white;
+  }
+  
+  header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  background-color: #f79840;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  }
+  
+  header h2 {
+    color: #ffffff;
+  }
+
+  .logo{
+  display: flex;
+  align-items: center;
+  }
+  
+  .logo img{
+  height: 50px;
+  margin-right: 10px;
+  }
+  
+  @media (max-width: 680px){
+  header{
+  flex-direction: column;
+  }
+  nav{
+  padding: 10px 0px;
+  }
+  }
